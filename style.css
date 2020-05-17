@@ -1,0 +1,62 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.projectshead{
+    text-align: center;
+}
+
+.projects{
+    background-color:burlywood;
+    padding: 1rem;
+}
+
+.miniproject{
+    margin: 2% 30% 0 30%;
+    padding: 1rem 2rem;
+    text-align: justify;
+    box-shadow: -30px 30px 15px rgba(0,0,0,0.3);
+    background-color: white;
+    border-radius: 0.7rem;
+    line-height: 2;
+    word-spacing: 3px;
+    transition: box-shadow 1s;
+}
+
+.miniproject:hover{
+    margin: 2% 30% 0 30%;
+    padding: 1rem 2rem;
+    text-align: justify;
+    box-shadow: 30px 30px 15px rgba(0,0,0,0.3);
+    background-color: white;
+    border-radius: 0.7rem;
+    line-height: 2;
+    word-spacing: 3px;
+}
+
+.finalproject, .nn, .cnn, .wordpress, .portfolio{
+    margin: 4% 30%;
+    padding: 1rem 1.5rem;
+    text-align: justify;
+    box-shadow: -30px 30px 15px rgba(0,0,0,0.3);
+    background-color: white;
+    border-radius: 0.7rem;
+    line-height: 2;
+    word-spacing: 3px;
+    transition: box-shadow 1s;
+}
+
+.finalproject:hover, .nn:hover, .cnn:hover, .wordpress:hover, .portfolio:hover{
+    margin: 4% 30%;
+    padding: 1rem 1.5rem;
+    text-align: justify;
+    box-shadow: 30px 30px 15px rgba(0,0,0,0.3);
+    background-color: white;
+    border-radius: 0.7rem;
+    line-height: 2;
+    word-spacing: 3px;
+}
+
+.more{
+    display: none;
+}
