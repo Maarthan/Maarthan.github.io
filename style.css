@@ -1,0 +1,307 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.body{
+    display: flex;
+}
+
+.profile{
+    background-color: coral;
+    text-align: left;
+    color: white;
+    padding: 19% 5%;
+}
+
+
+.projectshead{
+    text-align: center;
+    font-size: 3vw;
+}
+
+.projects{
+    background-color:burlywood;
+    padding: 4% 0 1% 0;
+}
+
+.miniproject{
+    margin: 3% 10% 0 10%;
+    padding: 2% 2%;
+    text-align: justify;
+    box-shadow: -30px 30px 15px rgba(0,0,0,0.3);
+    background-color: white;
+    border-radius: 0.7rem;
+    line-height: 2;
+    word-spacing: 3px;
+    transition: box-shadow 0.6s;
+    font-size: 1vw;
+}
+
+.miniproject:hover{
+    margin: 3% 10% 0 10%;
+    padding: 2% 2%;
+    text-align: justify;
+    box-shadow: 30px 30px 15px rgba(0,0,0,0.3);
+    background-color: white;
+    border-radius: 0.7rem;
+    line-height: 2;
+    word-spacing: 3px;
+    font-size: 1vw;
+}
+
+.finalproject, .nn, .cnn, .wordpress, .portfolio{
+    margin: 4% 10%;
+    padding: 2% 2%;
+    text-align: justify;
+    box-shadow: -30px 30px 15px rgba(0,0,0,0.3);
+    background-color: white;
+    border-radius: 0.7rem;
+    line-height: 2;
+    word-spacing: 3px;
+    transition: box-shadow 0.6s;
+    font-size: 1vw;
+}
+
+.finalproject:hover, .nn:hover, .cnn:hover, .wordpress:hover, .portfolio:hover{
+    margin: 4% 10%;
+    padding: 2% 2%;
+    text-align: justify;
+    box-shadow: 30px 30px 15px rgba(0,0,0,0.3);
+    background-color: white;
+    border-radius: 0.7rem;
+    line-height: 2;
+    word-spacing: 3px;
+    font-size: 1vw;
+}
+
+.education{
+    line-height: 2;
+    word-spacing: 3px;
+    margin: 1% 1% 5% 1%;
+}
+
+.education h1{
+    text-align: center;
+    margin-bottom: 1%;
+    font-size: 3vw;
+}
+
+.card{
+    width: 27.13%;
+    float: left;
+    box-shadow: 0px 8px 15px 0 rgba(0,0,0,0.5), 0px 8px 15px 0 rgba(255,255,255,0.5);
+    margin: 2.1%;
+    padding: 1%;
+    border-radius: 2%;
+    font-size: 1vw;
+    transition: transform 0.6s;
+}
+
+.card:hover{
+    width: 27.13%;
+    float: left;
+    box-shadow: 0px 8px 15px 0 rgba(0,0,0,0.5), 0px 8px 15px 0 rgba(255,255,255,0.5);
+    margin: 2.1%;
+    padding: 1%;
+    border-radius: 2%;
+    font-size: 1vw;
+    transform: translateY(-5%);
+}
+
+.card h3{
+    text-align: center;
+    background-color: red;
+    color: white;
+}
+
+.certificates h1{
+    text-align: center;
+    font-size: 3vw;
+    margin-top: 4%;
+}
+
+.certificates .cardcerti{
+    float: left;
+    width: 38%;
+    box-shadow: 0px 8px 15px 0 rgba(0,0,0,0.5);
+    margin: 5%;
+    border-radius: 2%;
+    padding: 1%;
+}
+
+.certificates .cardcerti .imgCard img{
+    max-width: 100%;
+}
+
+.certificates .cardcerti .contentCard{
+    font-size: 1vw;
+    line-height: 2;
+    word-spacing: 3px;
+}
+
+.contact{
+    background: #333;
+    color: #e2e2e2;
+}
+.contact h1{
+    font-size: 3vw;
+    margin: 1% 0;
+    text-align: center;
+}
+
+.contact p{
+    font-size: 1vw;
+    text-align: center;
+    margin: 2%;
+}
+
+.contact p a{
+    color: white;
+}
+
+@media (max-width: 1400px){
+    
+    .profile h1{
+        padding-bottom: 2%;
+    }
+    
+    .education h1{
+        font-size: 5vw;
+    }
+    
+    .card{
+        width: 80%;
+        float: left;
+        box-shadow: 0px 8px 15px 0 rgba(0,0,0,0.5), 0px 8px 15px 0 rgba(255,255,255,0.5);
+        margin: 5% 10%;
+        padding: 1%;
+        border-radius: 2%;
+        font-size: 3vw;
+        transition: transform 0.6s;
+    }
+
+    .card:hover{
+        width: 80%;
+        float: left;
+        box-shadow: 0px 8px 15px 0 rgba(0,0,0,0.5), 0px 8px 15px 0 rgba(255,255,255,0.5);
+        margin: 5% 10%;
+        padding: 1%;
+        border-radius: 2%;
+        font-size: 3vw;
+        transform: translateY(-5%);
+    }
+
+    .card h3{
+        text-align: center;
+        background-color: red;
+        color: white;
+    }
+    
+    .projectshead{
+        text-align: center;
+        font-size: 5vw;
+    }
+
+    .projects{
+        background-color:burlywood;
+        padding: 4% 0 1% 0;
+    }
+
+    .miniproject{
+        margin: 3% 10% 0 10%;
+        padding: 4%;
+        text-align: justify;
+        box-shadow: -30px 30px 15px rgba(0,0,0,0.3);
+        background-color: white;
+        border-radius: 0.7rem;
+        line-height: 2;
+        word-spacing: 3px;
+        transition: box-shadow 0.6s;
+        font-size: 3vw;
+    }
+
+    .miniproject:hover{
+        margin: 3% 10% 0 10%;
+        padding: 4%;
+        text-align: justify;
+        box-shadow: 30px 30px 15px rgba(0,0,0,0.3);
+        background-color: white;
+        border-radius: 0.7rem;
+        line-height: 2;
+        word-spacing: 3px;
+        font-size: 3vw;
+    }
+
+    .finalproject, .nn, .cnn, .wordpress, .portfolio{
+        margin: 4% 10%;
+        padding: 4%;
+        text-align: justify;
+        box-shadow: -30px 30px 15px rgba(0,0,0,0.3);
+        background-color: white;
+        border-radius: 0.7rem;
+        line-height: 2;
+        word-spacing: 3px;
+        transition: box-shadow 0.6s;
+        font-size: 3vw;
+    }
+
+    .finalproject:hover, .nn:hover, .cnn:hover, .wordpress:hover, .portfolio:hover{
+        margin: 4% 10%;
+        padding: 4%;
+        text-align: justify;
+        box-shadow: 30px 30px 15px rgba(0,0,0,0.3);
+        background-color: white;
+        border-radius: 0.7rem;
+        line-height: 2;
+        word-spacing: 3px;
+        font-size: 3vw;
+    }
+    
+    .certificates h1{
+        text-align: center;
+        font-size: 5vw;
+        margin-top: 4%;
+    }
+
+    .certificates .cardcerti{
+        float: left;
+        width: 80%;
+        box-shadow: 0px 8px 15px 0 rgba(0,0,0,0.5);
+        margin: 5% 10%;
+        border-radius: 2%;
+        padding: 2%;
+    }
+
+    .certificates .cardcerti .imgCard img{
+        max-width: 100%;
+    }
+
+    .certificates .cardcerti .contentCard{
+        font-size: 3vw;
+        line-height: 2;
+        word-spacing: 3px;
+    }
+    
+    .contact{
+        background: #333;
+        color: #e2e2e2;
+    }
+    .contact h1{
+        font-size: 5vw;
+        margin: 1% 0;
+        text-align: center;
+    }
+
+    .contact p{
+        font-size: 3vw;
+        text-align: center;
+        margin: 2% auto;
+    }
+
+    .contact p a{
+        color: white;
+    }
+}
